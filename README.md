@@ -7,7 +7,7 @@
 @version: 1.0
 
 #Description
-Coming
+Shampan - Responsive Multi-Page HTML Template Fully Flat Design and Its Corporate, Business, Personal, Creative Design.
 
 #Feature
 1. Fully Responsive.
