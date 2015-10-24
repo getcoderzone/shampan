@@ -1,57 +1,766 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Shampan by getcoderzone</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Shampan HTML</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/getcoderzone/shampan" class="btn">View on GitHub</a>
-      <a href="https://github.com/getcoderzone/shampan/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/getcoderzone/shampan/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Shampan - Responsive Multi-Page HTML Template</title>
+	<meta name="description" content="Shampan - Responsive Multi-Page HTML Template Fully Flat Design and Its Corporate, Business, Personal, Creative Design.">
+	<meta name="keywords" content="Shapman, Responsive, Multi-page, Fully Flat Design, Business, Corporate, Free, Non Profit ">
+	<meta name="author" content="Shafiqul Islam">
+	<link rel="icon"  href="images/favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body>
+	<header id="sticky_navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12">
+					<div class="logo">
+						<a class="pull-left" href="index.html"><img src="images/Shampan.png" alt="Shampan" /></a>
+						<div class="navbar-header pull-right">
+							<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+								<i class="fa fa-bars"></i>
+							</button>
+							<div class="hidden-lg hidden-md hidden-sm pull-right top-search"><a href="javascript:void(0)" class="search-header"><i class="fa fa-search"></i></a></div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-9 col-xs-12">
+					<nav class="navbar navbar-default menu pull-right">
+						<div class="navbar-collapse collapse" id="navbar">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="pricing.html">Pricing</a></li>
+								<li><a href="team.html">Team</a></li>
+								<li class="dropdown">
+									<a href="blog.html">Blog</a>
+									<ul class="dropdown-menu">
+										<li><a href="blog-3columns.html">Blog 3 Columns</a></li>
+										<li><a href="blog-2columns.html">Blog 2 Columns</a></li>
+										<li><a href="blog-fullwidth.html">Blog Fullwidth</a></li>
+										<li><a href="single-blog.html">Blog Single Post</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+								<li class="hidden-xs"><a href="javascript:void(0)" class="search-header"><i class="fa fa-search"></i></a></li>
+							</ul>
+						</div><!--/.nav-collapse -->
+					</nav>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="search-bar">
+		<a href="javascript:void(0)" class="search-header"><i class="fa fa-times"></i></a>
+		<div class="container">
+			<form action="" class="search-form">
+				<input class="search-fild" type="text" placeholder="SEARCH...">
+				<button class="search-submit"><i class="fa fa-arrow-right"></i></button>
+			</form>
+		</div>
+	</div>
+	<!-- Slider -->
+	<div class="flexslider">
+	    <ul class="slides">
+	    	<li>
+	    		<img src="images/slider/slider-1.jpg" />
+				<div class="flex-caption">
+					<h2><span>Slider</span> image One</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a class="btn-blue btn-blue-lg" href="#">Learn More</a>
+				</div>
+	    	</li>
+	    	<li>
+	    		<img src="images/slider/slider-2.jpg" />
+				
+	    		<div class="flex-caption">
+					<h2><span>Slider</span> image Two </h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a class="btn-blue btn-blue-lg" href="#">Learn More</a>
+				</div>
+	    	</li>
+	    	<li>
+	    		<img src="images/slider/slider-3.jpg" />
+				<div class="flex-caption">
+					<h2><span>Slider</span> image Three </h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a class="btn-blue btn-blue-lg" href="#">Learn More</a>
+				</div>
+	    	</li>
+	    </ul>
+		<div id="top-bottom">
+			<a href="#our-service"><i class="fa fa-angle-double-down"></i></a>
+		</div>
+	</div>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Shampan Pages.</h3>
+	<!----Our Service -->
+	<section  id="our-service">
+		<div class="container">
+			<h2 class="text-center section-title">Our Services</h2>
+			<div class="main-title-border-center"></div>
+			<p class="section-title-caption text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </br> euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore.</p>
+			<div class="col-md-4 service-item text-center">
+				<i class="fa fa-css3"></i>
+				<h2>Web Design</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<a class="btn-blue btn-blue-md" href="#">Read More</a>
+			</div>
+			<div class="col-md-4 service-item text-center">
+				<i class="fa fa-paint-brush"></i>
+				<h2>Graphic Design</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<a class="btn-blue btn-blue-md" href="#">Read More</a>
+			</div>
+			<div class="col-md-4 service-item text-center">
+				<i class="fa fa-bar-chart"></i>
+				<h2>Software Development</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<a class="btn-blue btn-blue-md" href="#">Read More</a>
+			</div>				
+			<div class="col-md-4 service-item text-center">
+				<i class="fa fa-ioxhost"></i>
+				<h2>Hosting & Domain</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<a class="btn-blue btn-blue-md" href="#">Read More</a>
+			</div>				
+			<div class="col-md-4 service-item text-center">
+				<i class="fa fa-pie-chart"></i>
+				<h2>SEO Services</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<a class="btn-blue btn-blue-md" href="#">Read More</a>
+			</div>				
+			<div class="col-md-4 service-item text-center">
+				<i class="fa fa-language"></i>
+				<h2>Android App</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<a class="btn-blue btn-blue-md" href="#">Read More</a>
+			</div>
+		</div>
+	</section>
+	<!--Recent Work-->
+	<section id="recent-item">
+		<div class="container text-center">
+			<h2 class="text-center section-title">Recent Work</h2>
+			<div class="main-title-border-center"></div>
+			<p class="section-title-caption text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </br> euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore.</p>
+			<div id="recent-work">
+				<div class="recent-work-item">
+					<div class="mix">
+						<div class="recent-work-item-image">
+							<img src="images/portfolio/portfolio-01.jpg" alt="portfolio-01">
+						</div>
+						<div class="hover_elements">
+							<div class="litle_desc">Lorem Ipsum is simply dummy text of the printing </div>
+							<a class="btn-blue btn-blue-md" href="single-portfolio.html">Read More</a>
+						</div>
+					</div>	
+				</div>
+				<div class="recent-work-item">
+					<div class="mix">
+						<div class="recent-work-item-image">
+							<img src="images/portfolio/portfolio-02.jpg" alt="portfolio-02">
+						</div>
+						<div class="hover_elements">
+							<div class="litle_desc">Lorem Ipsum is simply dummy text of the printing </div>
+							<a class="btn-blue btn-blue-md" href="single-portfolio.html">Read More</a>
+						</div>
+					</div>	
+				</div>
+				<div class="recent-work-item">
+					<div class="mix">
+						<div class="recent-work-item-image">
+							<img src="images/portfolio/portfolio-03.jpg" alt="portfolio-03">
+						</div>
+						<div class="hover_elements">
+							<div class="litle_desc">Lorem Ipsum is simply dummy text of the printing </div>
+							<a class="btn-blue btn-blue-md" href="single-portfolio.html">Read More</a>
+						</div>
+					</div>	
+				</div>
+				<div class="recent-work-item">
+					<div class="mix">
+						<div class="recent-work-item-image">
+							<img src="images/portfolio/portfolio-04.jpg" alt="portfolio-04">
+						</div>
+						<div class="hover_elements">
+							<div class="litle_desc">Lorem Ipsum is simply dummy text of the printing </div>
+							<a class="btn-blue btn-blue-md" href="single-portfolio.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="recent-work-item">
+					<div class="mix">
+						<div class="recent-work-item-image">
+							<img src="images/portfolio/portfolio-05.jpg" alt="portfolio-05">
+						</div>
+						<div class="hover_elements">
+							<div class="litle_desc">Lorem Ipsum is simply dummy text of the printing </div>
+							<a class="btn-blue btn-blue-md" href="single-portfolio.html">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="portfolio.html" class="btn-blue btn-blue-lg clear-fix">More Work</a>
+		</div>
+	</section>
+	
+	<!-- Fan Facts -->
+	<section>
+		<h2 class="text-center section-title">Fan Facts</h2>
+		<div class="main-title-border-center"></div>
+		<p class="section-title-caption text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </br> euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore.</p>
+		<div class="fan-facts">
+			<div class="container">
+				<div class="fan-facts-stat">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="milestone-counter">
+							<i class="fa fa-user fa-3x"></i>
+							<span class="stat-count highlight">822</span>
+							<div class="milestone-details">Lines Of Code</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="milestone-counter">
+							<i class="fa fa-coffee fa-3x"></i>
+							<span class="stat-count highlight">400</span>
+							<div class="milestone-details">Cups Of Coffee</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="milestone-counter">
+							<i class="fa fa-trophy fa-3x"></i>
+							<span class="stat-count highlight">642</span>
+							<div class="milestone-details">Finished Project</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="milestone-counter">
+							<i class="fa fa-camera fa-3x"></i>
+							<span class="stat-count highlight">732</span>
+							<div class="milestone-details">Happy Customers</div>
+						</div>
+					</div>
+				</div><!-- stat -->
+			</div>
+		</div>
+	</section>
+	
+	<!------Latest Posts-------->
+	<section id="latest-item">
+		<div class="container latest-post text-center">
+			<h2 class="section-title">Latest Posts</h2>
+			<div class="main-title-border-center"></div>
+			<p class="section-title-caption text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </br> euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore.</p>
+			<div id="latest-post">
+				<div class="latest-post-item">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+							  <img src="images/blog-01.jpg" alt="blog-01">
+							</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+							<div class="item">
+							  <img src="images/blog-03.jpg" alt="blog-03">
+							</div>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/getcoderzone/shampan">Shampan</a> is maintained by <a href="https://github.com/getcoderzone">getcoderzone</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+							<div class="item">
+							  <img src="images/blog-02.jpg" alt="blog-02">
+							</div>
+						</div>
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<a href="#"><h2>Post With Big Image</h2></a>
+					<div class="blog-date-time"><i class="fa fa-calendar"></i> June 6, 2014  <a class="comment" href="#"><i class="fa fa-comments"></i> 2 Comments</a></div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut laoreet dolore magna aliquam ut aliquip ex ea commodo consequat.</p>
+					<a class="btn-blue btn-blue-md" href="#">Read More</a>
+				</div>		
+				<div class="latest-post-item">
+					<div class="latest-post-img">
+						<a href="#"><img  class="img-responsive" src="images/blog-04.jpg" alt="blog-1" /></a>
+					</div>
+					<a href="#"><h2>Post With Big Image</h2></a>
+					<div class="blog-date-time"><i class="fa fa-calendar"></i> June 6, 2014  <a class="comment" href="#"><i class="fa fa-comments"></i> 2 Comments</a></div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut laoreet dolore magna aliquam ut aliquip ex ea commodo consequat.</p>
+					<a class="btn-blue btn-blue-md" href="#">Read More</a>
+				</div>		
+				<div class="latest-post-item">
+					<div class="latest-post-img">
+						<a href="#"><img  class="img-responsive" src="images/blog-03.jpg" alt="blog-1" /></a>
+					</div>
+					<a href="#"><h2>Post With Big Image</h2></a>
+					<div class="blog-date-time"><i class="fa fa-calendar"></i> June 6, 2014  <a class="comment" href="#"><i class="fa fa-comments"></i> 2 Comments</a></div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut laoreet dolore magna aliquam ut aliquip ex ea commodo consequat.</p>
+					<a class="btn-blue btn-blue-md" href="#">Read More</a>
+				</div>
+				<div class="latest-post-item">
+					<div class="latest-post-img">
+						<a href="#"><img  class="img-responsive" src="images/blog-02.jpg" alt="blog-1" /></a>
+					</div>
+					<a href="#"><h2>Post With Big Image</h2></a>
+					<div class="blog-date-time"><i class="fa fa-calendar"></i> June 6, 2014  <a class="comment" href="#"><i class="fa fa-comments"></i> 2 Comments</a></div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut laoreet dolore magna aliquam ut aliquip ex ea commodo consequat.</p>
+					<a class="btn-blue btn-blue-md" href="#">Read More</a>
+				</div>
+			</div>
+			<br />
+			<div class="col-md-12">
+				<a class="btn-blue btn-blue-lg clear-fix" href="#">View All</a>
+			</div>
+			
+		</div>
+	</section>
+	
+	<!-- Pricing Table -->
+	<section id="pricing-table">
+		<h2 class="text-center section-title">Pricing Table</h2>
+		<div class="main-title-border-center"></div>
+		<p class="section-title-caption text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </br> euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore.</p>
+		<div class="container">
+			<div class="col-md-3 text-center margin-bottom">
+				<div class="pricing-item">
+					<div class="pricing-top">
+						<div class="plan-title">
+							<h2>Basic</h2>
+							<i class="fa fa-paper-plane"></i>
+						</div>
+						<div class="currency">
+							<span class="sign">$</span>
+							<span class="cost">20.99</span>
+							<p class="">per month</p>
+						</div>
+					</div>
+					<div class="pricing-details">
+						<ul>
+							<li><strong>1GB</strong> Storage</li>
+							<li><strong>20GB</strong> Bandwidth</li>
+							<li><strong>20</strong> Email Address</li>
+							<li><strong>50</strong> Domain</li>
+							<li><strong>20</strong> Subdomain</li>
+							<li><strong>MySQL</strong> Support</li>
+							<li><strong>Webmail</strong> Support</li>
+							<li><strong>27/7</strong> Support</li>
+						</ul>
+					</div>
+					<div class="pricing-bottom">
+						<a class="btn-blue btn-blue-md" href="#">Sign Up</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center margin-bottom">
+				<div class="pricing-item">
+					<div class="pricing-top">
+						<div class="plan-title">
+							<h2>Premium</h2>
+							<i class="fa fa-mortar-board"></i>
+						</div>
+						<div class="currency">
+							<span class="sign">$</span>
+							<span class="cost">40.99</span>
+							<p class="">per month</p>
+						</div>
+					</div>
+					<div class="pricing-details">
+						<ul>
+							<li><strong>2GB</strong> Storage</li>
+							<li><strong>50GB</strong> Bandwidth</li>
+							<li><strong>50</strong> Email Address</li>
+							<li><strong>80</strong> Domain</li>
+							<li><strong>40</strong> Subdomain</li>
+							<li><strong>MySQL</strong> Support</li>
+							<li><strong>Webmail</strong> Support</li>
+							<li><strong>27/7</strong> Support</li>
+						</ul>
+					</div>
+					<div class="pricing-bottom">
+						<a class="btn-blue btn-blue-md" href="#">Sign Up</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center margin-bottom">
+				<div class="pricing-item">
+					<div class="pricing-top pricing-featured">
+						<div class="plan-title">
+							<h2>Advance</h2>
+							<i class="fa fa-pie-chart"></i>
+						</div>
+						<div class="currency">
+							<span class="sign">$</span>
+							<span class="cost">50.99</span>
+							<p class="">per month</p>
+						</div>
+					</div>
+					<div class="pricing-details">
+						<ul>
+							<li><strong>5GB</strong> Storage</li>
+							<li><strong>100GB</strong> Bandwidth</li>
+							<li><strong>100</strong> Email Address</li>
+							<li><strong>80</strong> Domain</li>
+							<li><strong>50</strong> Subdomain</li>
+							<li><strong>MySQL</strong> Support</li>
+							<li><strong>Webmail</strong> Support</li>
+							<li><strong>27/7</strong> Support</li>
+						</ul>
+					</div>
+					<div class="pricing-bottom">
+						<a class="btn-blue btn-blue-md" href="#">Sign Up</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center margin-bottom">
+				<div class="pricing-item">
+					<div class="pricing-top">
+						<div class="plan-title">
+							<h2>Professional</h2>
+							<i class="fa fa-rocket"></i>
+						</div>
+						<div class="currency">
+							<span class="sign">$</span>
+							<span class="cost">100.99</span>
+							<p class="">per month</p>
+						</div>
+					</div>
+					<div class="pricing-details">
+						<ul>
+							<li><strong>10GB</strong> Storage</li>
+							<li><strong>200GB</strong> Bandwidth</li>
+							<li><strong>Unlimited</strong> Email Address</li>
+							<li><strong>Unlimited</strong> Domain</li>
+							<li><strong>Unlimited</strong> Subdomain</li>
+							<li><strong>MySQL</strong> Support</li>
+							<li><strong>Webmail</strong> Support</li>
+							<li><strong>27/7</strong> Support</li>
+						</ul>
+					</div>
+					<div class="pricing-bottom">
+						<a class="btn-blue btn-blue-md" href="#">Sign Up</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Call To action -->
+	<section>
+		<div class="call-to-action">
+			<div class="container">
+				<div class="col-md-8">
+					<div class="pull-left">
+						<h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nib. Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nib.</h4>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="pull-right">
+						<a class="btn-blue btn-blue-lg" href="#">Download Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Awesome Team -->
+	<section id="awesome-team">
+		<div class="container our-team text-center">
+			<h2 class="section-title">Awesome Team</h2>
+			<div class="main-title-border-center"></div>
+			<p class="section-title-caption text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </br> euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore.</p>
+			<div class="col-md-3 margin-bottom">
+				<div class="team-details">
+					<div class="team-details-img">
+						<img class="img-responsive" src="images/team/team_member_1.jpg" alt="" />
+					</div>
+					<h3 class="team-name">Joeby Ragpa</h3>
+					<span>CEO of Company</span>
+					<div class="team-social">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>				
+			<div class="col-md-3 margin-bottom">
+				<div class="team-details">
+					<div class="team-details-img">
+						<img class="img-responsive" src="images/team/team_member_2.jpg" alt="" />
+					</div>
+					<h3 class="team-name">John Deu</h3>
+					<span>Lead Designer</span>
+					<div class="team-social">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>				
+			<div class="col-md-3 margin-bottom">
+				<div class="team-details">
+					<div class="team-details-img">
+						<img class="img-responsive" src="images/team/team_member_3.jpg" alt="" />
+					</div>
+					<h3 class="team-name">Sam Deu</h3>
+					<span>Web Designer</span>
+					<div class="team-social">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>				
+			<div class="col-md-3 margin-bottom">
+				<div class="team-details">
+					<div class="team-details-img">
+						<img class="img-responsive" src="images/team/team_member_4.jpg" alt="" />
+					</div>
+					<h3 class="team-name">Alex Green</h3>
+					<span>Project Manager</span>
+					<div class="team-social">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- About Us -->
+	<section id="about-us">
+		<div class="container">
+			<div class="col-md-6 our-mission">
+				<h2 class="section-title">Our Mission</h2>
+				<div class="main-title-border-left"></div>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut laoreet dolore magna aliquam ut aliquip ex ea commodo consequat. </p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut laoreet dolore magna aliquam ut aliquip ex ea commodo consequat. </p>
+				<div class="row">
+					<div class="col-md-6">
+						<ul>
+							<li><i class="fa fa-check-circle-o"></i> We are trendy</li>
+							<li><i class="fa fa-check-circle-o"></i> We provide best web solutions</li>
+							<li><i class="fa fa-check-circle-o"></i> 24/7 Support</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li><i class="fa fa-check-circle-o"></i> Our clients love us</li>
+							<li><i class="fa fa-check-circle-o"></i> We accelerate you business</li>
+							<li><i class="fa fa-check-circle-o"></i> We are passionate</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 popular-questions">
+				<h2 class="section-title">Popular Questions</h2>
+				<div class="main-title-border-left"></div>
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" aria-expanded="true" data-parent="#accordion" href="#collapse1"><i class="fa fa-chevron-circle-right"></i> How do I order for services you render?</a>
+						</h4>
+					  </div>
+					  <div id="collapse1" class="panel-collapse collapse in">
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="fa fa-chevron-circle-right"></i> How much does it cost to work with you?</a>
+						</h4>
+					  </div>
+					  <div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="fa fa-chevron-circle-right"></i> Is the price really a one-time fee?</a>
+						</h4>
+					  </div>
+					  <div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					  </div>
+					</div>						
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="fa fa-chevron-circle-right"></i> Is ordering from your site secure?</a>
+						</h4>
+					  </div>
+					  <div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					  </div>
+					</div>
+				 </div> 
+			</div>
+		</div>
+	</section>
+	<!-- Testimonial -->
+	<section id="testimonial" class="text-center">
+		<h2 class="section-title">Testimonial</h2>
+		<div class="main-title-border-center"></div>
+		<p class="section-title-caption text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </br> euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore.</p>
+		<div class="testimonial">
+			<div class="container">
+				<div id="testimonial-carousel">
+					<div class="testimonial-item">
+						<img src="images/team/team_member_3.jpg" alt="" />
+						<p><i class="fa fa-quote-left"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br /> the industry's standard dummy text ever since the 1500s <i class="fa fa-quote-right"></i></p>
+						<div class="t-name">- Joeby Ragpa</div>
+					</div>
+					<div class="testimonial-item">
+						<img src="images/team/team_member_2.jpg" alt="" />
+						<p><i class="fa fa-quote-left"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br /> the industry's standard dummy text ever since the 1500s <i class="fa fa-quote-right"></i></p>
+						<div class="t-name">- Joeby Ragpa</div>
+					</div>
+					<div class="testimonial-item">
+						<img src="images/team/team_member_1.jpg" alt="" />
+						<p><i class="fa fa-quote-left"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br /> the industry's standard dummy text ever since the 1500s <i class="fa fa-quote-right"></i></p>
+						<div class="t-name">- Joeby Ragpa</div>
+					</div>
+					<div class="testimonial-item">
+						<img src="images/team/team_member_3.jpg" alt="" />
+						<p><i class="fa fa-quote-left"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br /> the industry's standard dummy text ever since the 1500s <i class="fa fa-quote-right"></i></p>
+						<div class="t-name">- Joeby Ragpa</div>
+					</div>
+					<div class="testimonial-item">
+						<img src="images/team/team_member_4.jpg" alt="" />
+						<p><i class="fa fa-quote-left"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br /> the industry's standard dummy text ever since the 1500s <i class="fa fa-quote-right"></i></p>
+						<div class="t-name">- Joeby Ragpa</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="client">
+		<div class="container">
+			<div class="our-client">
+				<div class="client-item">
+					<img src="images/client/client-1.png" alt="client-1" />
+				</div>					
+				<div class="client-item">
+					<img src="images/client/client-2.png" alt="client-2" />
+				</div>					
+				<div class="client-item">
+					<img src="images/client/client-3.png" alt="client-3" />
+				</div>					
+				<div class="client-item">
+					<img src="images/client/client-4.png" alt="client-4" />
+				</div>					
+				<div class="client-item">
+					<img src="images/client/client-5.png" alt="client-5" />
+				</div>					
+				<div class="client-item">
+					<img src="images/client/client-6.png" alt="client-6" />
+				</div>					
+				<div class="client-item">
+					<img src="images/client/client-7.png" alt="client-7" />
+				</div>					
+				<div class="client-item">
+					<img src="images/client/client-8.png" alt="client-8" />
+				</div>
+				<div class="client-item">
+					<img src="images/client/client-1.png" alt="client-1" />
+				</div>
+				<div class="client-item">
+					<img src="images/client/client-2.png" alt="client-2" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="col-md-3 important">
+				<h3>QUICK LINKS</h3>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Pricing</a></li>
+					<li><a href="">Team</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 address">
+				<h3>OUR ADDRESS</h3>
+				<p><i class="fa fa-map-marker"></i>&nbsp;&nbsp; House#105, Road:#02, Block#E<br/>Section#12, Mirpur, Dhaka</p>
+				<p><i class="fa fa-phone"></i>&nbsp;&nbsp; +880 183 2679886 <br /> <i class="fa fa-envelope-o"></i>&nbsp;&nbsp; info@getcoderzone.com</p>
+			</div>
+			<div class="col-md-3 tags">
+				<h3>Tags</h3>
+				<ul>
+					<li><a href="#">Design</a></li>
+					<li><a href="#">php</a></li>
+					<li><a href="#">CSS3</a></li>
+					<li><a href="#">Photoshop</a></li>
+					<li><a href="#">Software</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 social">
+				<h3>Social</h3>
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copy-right text-center">
+			<p>&copy 2015 Shampan. All rights reserved.</p>
+		</div>
+	</footer>
+	<div id="back-top"><a href="#top"><i class="fa fa-chevron-up"></i></a></div>
+	<!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="js/mixitup/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/animated.js"></script>
+	<!-- Hook up the FlexSlider -->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+	</script>
+	
+</body>
 </html>

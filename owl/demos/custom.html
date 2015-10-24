@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Owl Carousel - Custom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jQuery Responsive Carousel - Owl Carusel">
+    <meta name="author" content="Bartosz Wojciechowski">
+    <!-- Owl Carousel Assets -->
+    <link href="../owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="../owl-carousel/owl.theme.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <div id="demo">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <div id="owl-demo" class="owl-carousel">
+                <div class="item"><h1>1</h1></div>
+                <div class="item"><h1>2</h1></div>
+                <div class="item"><h1>3</h1></div>
+                <div class="item"><h1>4</h1></div>
+                <div class="item"><h1>5</h1></div>
+                <div class="item"><h1>6</h1></div>
+                <div class="item"><h1>7</h1></div>
+                <div class="item"><h1>8</h1></div>
+                <div class="item"><h1>9</h1></div>
+                <div class="item"><h1>10</h1></div>
+                <div class="item"><h1>11</h1></div>
+                <div class="item"><h1>12</h1></div>
+                <div class="item"><h1>13</h1></div>
+                <div class="item"><h1>14</h1></div>
+                <div class="item"><h1>15</h1></div>
+                <div class="item"><h1>16</h1></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <script src="../assets/js/jquery-1.9.1.min.js"></script> 
+    <script src="../owl-carousel/owl.carousel.js"></script>
+
+
+
+    <script>
+    $(document).ready(function() {
+		
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+      items : 1, //10 items above 1000px browser width
+      itemsDesktop : [1000,5], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0;
+      itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+	  autoPlay: true
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+      $(".play").click(function(){
+        owl.trigger('owl.play',2000);
+      })
+
+    });
+    </script>
+
+  </body>
+</html>
